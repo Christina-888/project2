@@ -1,16 +1,18 @@
+@use "../abstracts/variables";
+
 .header__menu {
-  background-color: rgb(230, 230, 230);
+  background-color: variables.$background-grey;
 }
 
 .nav-item__points {
-  color: rgb(80, 80, 80);
+  color: variables.$dark-font;
 }
 
 .connection {
   margin-right: 5%;
 
   .connection__button {
-    background-color: rgb(181, 151, 136);
+    background-color: variables.$medium-font;
     border: none;
     color: white;
     padding-left: 2em;
@@ -27,7 +29,7 @@
   }
 
   .connection__button:active {
-    background-color: rgb(181, 151, 136);
+    background-color: variables.$medium-font;
   }
 }
 
