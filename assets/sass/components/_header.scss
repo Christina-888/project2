@@ -1,6 +1,40 @@
-.connection {
-  background-color: rgb(181, 151, 136);
-  border: none;
-  color: white;
+.header__menu {
+  background-color: rgb(230, 230, 230);
 }
+
+.nav-item__points {
+  color: rgb(80, 80, 80);
+}
+
+.connection {
+  margin-right: 5%;
+
+  .connection__button {
+    background-color: rgb(181, 151, 136);
+    border: none;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    .whatsapp-number {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  .connection__button:hover {
+    transform: scale(1.1);
+  }
+
+  .connection__button:active {
+    background-color: rgb(181, 151, 136);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .menu {
+    margin-left: 3%;
+  }
+}
+
 
