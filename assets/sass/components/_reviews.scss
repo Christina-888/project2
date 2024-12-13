@@ -4,10 +4,12 @@ display: flex;
 
 }
 .card {
-background: linear-gradient(#c0bce2,#e8adb6e3 ) ;
+background: linear-gradient(#9e93f2,#f0b0bb );
   margin: 0 0.5em;
-  border: none;
-  border-radius: 0;
+  border:1px solid #9e93f2 ;
+  border-radius: 30;
+  width:calc(100%/3);
+ max-height: 300px;
 }
 
 .carousel-inner {
@@ -15,15 +17,14 @@ background: linear-gradient(#c0bce2,#e8adb6e3 ) ;
 }
 
 .carousel-control-prev,
-.carousel-control-next {
-  background-color: aqua;
+ .carousel-control-next {
   background-color: #e1e1e1;
   width: 5vh;
   height: 5vh;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
-}
+ }
 
 
 
