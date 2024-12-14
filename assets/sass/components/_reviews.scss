@@ -1,15 +1,25 @@
 
+
 .card-wrapper{
 display: flex;
 
 }
 .card {
-background: linear-gradient(#9e93f2,#f0b0bb );
-  margin: 0 0.5em;
-  border:1px solid #9e93f2 ;
-  border-radius: 30;
+  // background: linear-gradient(#bdb5f2,#f2cdd3, );
+  // border:1px solid #b6b4c2 ;
+  background: linear-gradient(rgb(185, 170, 163), rgb(230, 230, 230) );
+  border-radius: 20;
   width:calc(100%/3);
- max-height: 300px;
+  margin: 0 0.5em;
+  box-shadow: 0 0 10px 3px rgb(139, 132, 132);
+}
+.quotes {
+  width: 30px;
+  height: 30px;
+  margin-right: auto;
+}
+.card-title{
+  margin-left: auto;
 }
 
 .carousel-inner {
@@ -17,35 +27,12 @@ background: linear-gradient(#9e93f2,#f0b0bb );
 }
 
 .carousel-control-prev,
- .carousel-control-next {
+.carousel-control-next {
   background-color: #e1e1e1;
   width: 5vh;
   height: 5vh;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
- }
+}
 
-
-
-// .cards-wrapper {
-//   display: flex;
-//   flex-direction: row;
-//   flex-wrap: nowrap;
-// }
-
-// .card {
-//   background-color: rgba(250, 184, 228, 0.918);
-//   margin: 0.5em;
-//   width: calc(100%/3);
-//   outline: 1px solid rgb(193, 125, 223);
-// }
-
-// .carousel-control-next-icon,
-// .carousel-control-prev-icon {
-//   background-color: blueviolet;
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-//   align-items: center;
-//
