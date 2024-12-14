@@ -60,6 +60,16 @@
 //     border: none;
 // }
 
-.btn:hover {
-    background-color: rgba(181, 151, 136, 0.8); /* Прозрачный цвет фона при наведении */
+/* Изменение фона при наведении с плавной анимацией */
+.container {
+    overflow-x: hidden;
 }
+
+.btn:hover {
+    background-color: #B59788;
+    opacity: 0.8; /* Добавление прозрачности */
+}
+
+// .position-absolute {
+//     z-index: -1; /* Убедимся, что лепестки не перекрывают другие элементы */
+// }
