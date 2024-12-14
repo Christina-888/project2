@@ -12,6 +12,11 @@
     letter-spacing: 0%;
     text-align: left;
 }
+.costs-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
 .container-costs {
     display: flex;
     gap: 30px;
