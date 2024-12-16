@@ -10,7 +10,7 @@
     
     .footer__item {
       font-family: variables.$header-font;
-      font-size: 1.5vw;
+      font-size: 1.4vw;
       margin: 20px 30px 70px;
 
       .footer__link {
@@ -25,7 +25,7 @@
   .footer .footer__list .footer__item {
     font-size: 1.7vw;
   }
-}
+} 
 
 @media screen and (max-width: 425px) {
   .footer {
