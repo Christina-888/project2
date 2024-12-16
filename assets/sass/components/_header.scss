@@ -2,14 +2,28 @@
 
 .header__menu {
   background-color: variables.$background-grey;
+
+  .header__container {
+    display: flex;
+    justify-content: end;
+  }
 }
 
-.nav-item__points {
+.menu {
+  margin-left: 2%;
+}
+
+.list {
+  display: flex;
+  justify-content: end;
+}
+
+.list__points {
   color: variables.$dark-font;
 }
 
 .connection {
-  margin-right: 5%;
+  margin-right: 3%;
 
   .connection__button {
     background-color: variables.$medium-font;
@@ -17,6 +31,7 @@
     color: white;
     padding-left: 2em;
     padding-right: 2em;
+    padding-bottom: 0.5em;
 
     .whatsapp-number {
       text-decoration: none;
@@ -33,9 +48,9 @@
   }
 }
 
-@media screen and (min-width: 992px) {
-  .menu {
-    margin-left: 3%;
+@media screen and (max-width: 991px) {
+  .whatsapp-number {
+    display: none;
   }
 }
 
