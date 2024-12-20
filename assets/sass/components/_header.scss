@@ -1,7 +1,7 @@
 @use "../abstracts/variables";
 
 .header__menu {
-  background-color: variables.$background-grey;
+  background: url(/project2/assets/img/header-footer/background.png), variables.$background-grey;
 
   .header__container {
     display: flex;
@@ -38,7 +38,7 @@
   }
 
   .connection__button:hover {
-    transform: scale(1.1);
+    transform: variables.$button-transform;
   }
 
   .connection__button:active {
