@@ -2,7 +2,8 @@
 
 .footer {
   display: flex;
-  background: url(), variables.$background-grey;
+  background: url(/project2/assets/img/header-footer/background.png), variables.$background-grey;
+  justify-content: center;
 
   .footer__list {
     display: inline-flex;
@@ -28,18 +29,14 @@
 } 
 
 @media screen and (max-width: 425px) {
-  .footer {
-    justify-content: center;
+  .footer .footer__list {
+    flex-direction: column;
+    padding-left: 0;
 
-    .footer__list {
-      flex-direction: column;
-      padding-left: 0;
-
-      .footer__item {
-        display: flex;
-        font-size: 3.9vw;
-        margin: 15px auto 15px;
-      }
+    .footer__item {
+      display: flex;
+      font-size: 3.9vw;
+      margin: 15px auto 15px;
     }
   }
 }
