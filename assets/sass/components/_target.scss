@@ -1,7 +1,6 @@
 @use "../abstracts/variables";
 
 .target {
-  margin-top: 5%;
   margin-left: variables.$general-margin;
   margin-right: variables.$general-margin;
 
@@ -42,6 +41,7 @@
 
   .target__text {
     margin-top: 5%;
+    margin-bottom: 5%;
     font-family: variables.$header-font;
     color: variables.$dark-font;
     font-size: 1.7vw; 
@@ -51,6 +51,7 @@
 @media screen and (max-width: 500px) {
   .target .target__title {
     font-size: 5vw;
+    margin-top: 7%;
   }
 
   .target .cards {

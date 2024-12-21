@@ -1,8 +1,7 @@
 @use "../abstracts/variables";
 
 .feedback {
-  background: url(/test-project/assets/img/feedback/background.png),
-    rgb(230, 230, 230);
+  background: url(../img/feedback/background.png), rgb(230, 230, 230); 
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -47,7 +46,7 @@
 }
 
 .feedback__button:hover {
-  background-color: rgb(80, 80, 80);
+  transform: variables.$button-transform;
 }
 
 .feedback__button:active {
@@ -78,5 +77,11 @@
 
   .feedback__image {
     display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .feedback__button {
+    width: 100%;
   }
 }
