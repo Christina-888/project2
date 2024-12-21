@@ -1,8 +1,10 @@
+
 .section-costs {
     box-sizing: border-box;
-    background-image: url('../img/grainbackground.png');
+    background: url("/assets/img/grainbackground.png"),
+    rgb(230, 230, 230);
     background-repeat: repeat;
-    padding: 75px 80px 75px 80px;
+    padding: 75px 80px 0px 80px;
 
 }
 .costs-container {
