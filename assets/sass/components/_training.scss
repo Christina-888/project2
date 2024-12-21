@@ -1,5 +1,9 @@
 @use "../abstracts/variables";
 
+.training-container {
+    background: url(../img/header-footer/background.png), variables.$background-grey;
+}
+
 .training-container__text {
     color: variables.$medium-font; 
     padding-bottom: 3.7vw; 
