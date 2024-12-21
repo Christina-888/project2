@@ -20,6 +20,34 @@
 
 <body>
   <!-- Header (Кристина) -->
+  <header class="header"> 
+    <nav class="navbar header__menu navbar-expand-lg">
+      <div class="container-fluid header__container"> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav menu me-auto mb-2 mt-lg-4 mb-lg-4">
+            <li class="nav-item list">
+              <a class="nav-link list__points" href="#">Пробная тренировка</a>
+            </li>         
+            <li class="nav-item list">
+              <a class="nav-link list__points" href="#">Стоимость</a>
+            </li>
+            <li class="nav-item list">
+              <a class="nav-link list__points" href="#">Отзывы</a>
+            </li>                    
+            <li class="nav-item list">
+              <a class="nav-link list__points" href="#">Контакты</a>
+            </li>         
+          </ul>
+          <form class="d-flex connection" role="search">          
+            <a class="btn btn-outline-success connection__button" href="https://wa.me/79377402571" target="_blank">Связаться</a>
+          </form>
+        </div> 
+      </div>
+    </nav>
+  </header>
   <!-- конец Header (Кристина) -->
 
   <!-- Обложка (Катя) -->
@@ -51,18 +79,131 @@
   <!-- конец О системе (Юля Хорева) -->
 
   <!-- Для кого подходит (Диана) -->
+  <section class="target">
+    <h2 class="target__title">Я с радостью буду проводить тренировки с женщинами, которые:</h2>
+    <div class="cards">
+      <div class="cards__wrapper">
+        <img class="cards__item" src="./assets/img/target/pregnant_card.png" alt="Pregnant woman">
+        <div class="cards__text">
+          <h3 class="big-subtitle">Сейчас беременны</h3>
+          <h4 class="small-subtitle">Подготовка к родам</h4>
+        </div>
+      </div>  
+
+      <div class="cards__wrapper">
+        <img class="cards__item" src="./assets/img/target/mom_baby_card.png" alt="Mom and baby">
+        <div class="cards__text">
+          <h3 class="big-subtitle">Хотят восстановиться после беременности и родов</h3>
+          <h4 class="small-subtitle">Имеют опущение органов малого таза и диастаз</h4>
+        </div>
+      </div>
+
+      <div class="cards__wrapper">
+        <img class="cards__item" src="./assets/img/target/for_everybody_card.png" alt="Training woman">
+        <div class="cards__text">
+          <h3 class="big-subtitle">Для любого возраста</h3>
+        </div>
+      </div> 
+    </div>
+    <p class="target__text">Тренировки не требуют много времени, места и наличия дополнительного оборудования</p>
+  </section>   
   <!-- конец Для кого подходит (Диана) -->
 
   <!-- Стоимость (Наташа) -->
   <!-- конец Стоимось (Наташа) -->
 
   <!-- Отзывы (Юля Иванова) -->
+  <h2 class="maintext">Результаты системы Inside Out</h2>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button> <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner col-3">
+      <div class="carousel-item active">
+        <div class="card-wrapper1">
+      <div class="card1">
+    <div class="card-body">
+      <img src="./assets/img/reviews/reviewsquote.svg" alt="quotesign" class="quotes">
+      <p class="card-text1">Вот теперь я себе нравлюсь! А муж говорит, что от меня веет феромонами издалека)). Я соблюдала все правила:питание(овощи/фрукты в каждый прием пищи, дыхание 5 раз перед приемом пищи( замедляться)-дыши-сокращай во время прогулки с коляской +тысячи шагов!</p>
+    </div>
+  </div>
+  <div class="card1">
+    <div class="card-body">
+      <img src="./assets/img/reviews/reviewsquote.svg" alt="quotesign" class="quotes"> 
+      <p class="card-text1">Изменился не только мой вес-осанка стала ровнее, ушли боли в спине н на животе начинает проглядавать что-то похожее на пресс. Да и в целом уличшилось мое самочувствие!Зарядки ворвались в мою жизнь, крепко осели и пустили корни!Я исключила перекусы и приучила себя пить много воды!</p>
+    </div>
+  </div>
+  <div class="card1">
+    <div class="card-body">
+      <img src="./assets/img/reviews/reviewsquote.svg" alt="quotesign" class="quotes">
+      <p class="card-text1">Мне очень понравилось заниматься с тренером Татьяной. Мега-приятный человек и супер-профессионал! Тренировки проходят очень комфортно.Кажется что не прилагаешь много усилий, но получаешь отличный результат.Очень нравится ее индивидуальный подход, подробные объяснения.Каждый раз выхожу с тренировки и порхаю как бабочка!За это и благодарю!</p>
+    </div>
+  </div>
+  </div>
+   </div>
+      <div class="carousel-item">
+      <div class="card-wrapper1">
+      <div class="card1">
+      <div class="card-body">
+      <img src="./assets/img/reviews/reviewsquote.svg" alt="quotesign" class="quotes">  
+      <p class="card-text1" >Я никогда не любила спорт, но с Татьяной все изменилось. Она сумела найти ко мне подход и сделать тренировки не просто полезными, но и увлекательными. Благодаря тренировкам и новому образу жизни я стала более энергичной и уверенной в себе.></p>
+    </div>
+  </div>
+  <div class="card1">
+    <div class="card-body">
+      <img src="./assets/img/reviews/reviewsquote.svg" alt="quotesign" class="quotes">
+      <p class="card-text1">Хочу поблагодарить Татьяну за индивидуальный подход и терпение. Благодаря ей, я смогла избавиться от лишнего веса и обрести красивую фигуру. Тренировки с ней всегда проходят в дружеской атмосфере, что делает процесс похудения еще приятнее.</p>
+    </div>
+  </div>
+    <div class="card1">
+    <div class="card-body">
+      <img src="./assets/img/reviews/reviewsquote.svg" alt="quotesign" class="quotes">
+      <p class="card-text1">Попробовала для себя новый вид тренировок Inside Out с тренером Татьяной. Давно искала вид нагрузок подходящих для моего веса(+20 кг)и возраста(51год).Индивидуальный подход, все упражнения в щадящем режиме.Татьяна -позитивный, внимательныйтренер и с душои относится к своим подопечным.Наша с ней цель-плоский живот, гибкость и хорошее настроение!</p>
+    </div>
+  </div>
+  </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>  
+  
   <!-- конец отзывы (Юля Иванова) -->
 
   <!-- Форма обратной связи (Полина) -->
+  <section id="contacts" class="feedback">
+      <div class="feedback_container">
+        <div class="feedback__text">
+          Свяжитесь со мной одним нажатием кнопки
+        </div>
+        
+          <a href="https://wa.me/79377402571" class="feedback__button">Связаться</a>
+      </div>
+
+      <img
+        class="feedback__image"
+        src="/test-project/assets/img/feedback/image.png"
+        alt="Девушка с фитнес мячом"
+      />
+    </section>
   <!-- конец Форма обратной связи (Полина) -->
 
   <!-- Footer (Кристина) -->
+    <footer class="footer">
+      <ul class="footer__list">
+        <li class="footer__item"><a class="footer__link" href="#">Пробная тренировка</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Стоимость</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Отзывы</a></li>
+      </ul>
+    </footer>
   <!-- конец Footer (Кристина) -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
