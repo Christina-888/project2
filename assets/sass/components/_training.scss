@@ -38,7 +38,13 @@
             padding-bottom: 5vw;
         }
 
-@media screen and (max-width: 900px) {
+    @media screen and (max-width: 991px) {
+        .training-container__button {
+            width: 60%;
+        }  
+    }    
+
+    @media screen and (max-width: 900px) {
     .training-container__text {
         font-size: 35px;
     }
