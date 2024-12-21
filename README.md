@@ -22,7 +22,7 @@ _sass --watch assets/sass/app.scss assets/style/style.css_
 
 ---
 
-&#128073; **_Посмотреть действующий сайт:_**
+&#128073; **_Посмотреть действующий сайт:_** https://christina-888.github.io/project2/
 
 # Команда проекта:
 
