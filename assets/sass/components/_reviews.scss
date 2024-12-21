@@ -26,6 +26,7 @@ width:calc(100%/3);
 margin: 0 0.5em;
 box-shadow: 0 0 10px 3px variables.$shadow-font;
 font-family:variables.$primary-font;
+padding: 10px;
 }
 
 .quotes {
@@ -73,7 +74,7 @@ display: none;
 }
 }
 
-@media screen and (max-width: 567px){
+@media screen and (max-width: 670px){
   .card-wrapper1{
 margin-left: 0.8rem;
 margin-right: 0.8rem;

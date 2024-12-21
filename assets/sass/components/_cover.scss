@@ -2,50 +2,48 @@
 @use "../abstracts/mixin";
 
 .trainer {
-margin: 0;
-padding: 0;
-background-color: #f2f2f2;
-background: url(../img/header-footer/background.png), variables.$background-grey;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+  background: url(../img/header-footer/background.png), variables.$background-grey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.trainer__wrapper {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 20px 0 20px;
+  // background-color: #f2f2f2;
 }
 
 .trainer__title {
-display: flex; 
-justify-content: center;
-align-items: center;
-@include mixin.font-style(variables.$font-size-large, variables.$font-weight);
-color: variables.$primary-color;
-line-height: 1.5;
-text-align: center;
-margin-bottom: -45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include mixin.font-style(variables.$font-size-large, variables.$font-weight);
+  color: variables.$primary-color;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: -45px;
 }
 
 .trainer__photo {
-width: 500px;
-height: 800px;
-align-self: end;
+  width: 500px;
+  height: 800px;
 }
 
 .trainer__image {
-display: flex; 
-justify-content: center;
-align-items: end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .trainer__text {
-color: variables.$secondary-color;
-@include mixin.font-style(variables.$font-size-small, variables.$font-weight);
-position: absolute;
-}
-
-.trainer {
-position: relative;
-max-width: 1000px;
-margin: 0 auto;
-text-align: center;
-padding: 50px 20px;
+  color: variables.$secondary-color;
+  @include mixin.font-style(variables.$font-size-small, variables.$font-weight);
+  position: absolute;
 }
 
 .trainer__photo {
@@ -54,29 +52,29 @@ padding: 50px 20px;
 }
 
 .trainer__text_position_one {
-  top: 40%;
-  left: 20%;
+  top: 42%;
+  left: 22%;
   transform: translateX(-50%);
 }
 
 .trainer__text_position_two {
-  top: 55%;
-  left: 0%;
+  top: 57%;
+  left: 4%;
 }
 
 .trainer__text_position_three {
-  bottom: 18%;
+  bottom: 19%;
   left: 18%;
 }
 
 .trainer__text_position_four {
   top: 55%;
-  right: 0%;
+  right: 3%;
 }
 
 .trainer__text_position_five {
-  bottom: 25%;
-  right: 2%;
+  bottom: 26%;
+  right: 4%;
 }
 
 .trainer__arrow {
@@ -102,26 +100,34 @@ padding: 50px 20px;
 }
 
 .trainer__arrow_position_four {
-  top: 46%;
-  right: 28%;
+  top: 44%;
+  right: 25%;
   transform: rotate(0deg);
 }
 
 .trainer__arrow_position_five {
   top: 63%;
-  left: 73%;
-  transform: rotate(0deg);
+  right: 25%;
+  transform: rotate(350deg);
 }
 
 .whatsapp-link {
   display: none;
 }
 
+.trainer-btn {
+  display: none;
+}
+
 @media (max-width: 991px) {
-  .btn {
+  // .btn {
+  //   position: absolute;
+  //   width: 100%;
+  // }
+  .trainer-btn {
+    display: block;
     position: absolute;
     width: 100%;
-  
   }
   .whatsapp-link {
     display: block;
@@ -142,12 +148,14 @@ padding: 50px 20px;
   }
 
   .trainer__image {
-    max-width: 90%;
-    width: 100%;
+    // max-width: 90%;
+    width: 75%;
     height: auto;
     display: block;
     margin: 0 auto;
     margin-top: 20px;
+    position: relative;
+    // outline: 3px green solid;
   }
 
   .trainer__title {
@@ -164,67 +172,125 @@ padding: 50px 20px;
   .trainer__text_position_three,
   .trainer__text_position_four,
   .trainer__text_position_five {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    width: 90%;
+    // word-wrap: break-word;
+    // overflow-wrap: break-word;
+    // width: 90%;
   }
 
   .trainer__text_position_one {
-    top: 38%;
-    left: 28%;
+    // top: 38%;
+    // left: 28%;
+    top: 250px;
+    left: 83px;
+    display: inline-block;
+    width: 148px;
   }
 
   .trainer__text_position_two {
-    top: 50%;
-    left: -20%;
+    // top: 50%;
+    // left: -20%;
+    top: 413px;
+    left: -23px;
+    width: 100px;
   }
 
   .trainer__text_position_three {
-    top: 70%;
-    left: -25%;
+    // top: 70%;
+    // left: -25%;
+    bottom: 100px;
+    left: 15px;
   }
 
   .trainer__text_position_four {
-    top: 45%;
-    right: -10%;
+    // top: 45%;
+    // right: -10%;
+    top: 350px;
+    right: -46px;
+    width: 165px;
   }
 
   .trainer__text_position_five {
-    bottom: 27%;
-    right: -15%;
+    // bottom: 27%;
+    // right: -15%;
+    bottom: 200px;
+    right: -22px;
+    width: 127px;
   }
 
   .trainer__arrow_position_one {
-    top: 30%;
-    left: 18%;
+    // top: 30px;
+    // left: 18px;
+    top: 150px;
+    left: 76px;
     transform: rotate(5deg);
-    width: 80px;
+    // width: 80px;
   }
 
   .trainer__arrow_position_two {
-    top: 45%;
-    left: 10%;
-    transform: rotate(-30deg);
+    // top: 45%;
+    // left: 10%;
+    top: 360px;
+    left: 20px;
+    transform: rotate(3deg);
     width: 80px;
   }
 
   .trainer__arrow_position_three {
-    bottom: 30%;
-    left: 10%;
+    // bottom: 30%;
+    // left: 10%;
     width: 70px;
+    bottom: 130px;
+    left: 32px;
     transform: rotate(9deg);
   }
 
   .trainer__arrow_position_four {
-    top: 35%;
-    right: 13%;
-    transform: rotate(0deg);
+    // top: 35%;
+    // right: 13%;
+    top: 250px;
+    right: 20px;
     width: 60px;
+    transform: rotate(0deg);
+    // width: 60px;
   }
 
   .trainer__arrow_position_five {
-    top: 60%;
-    right: 13%;
+    // top: 60%;
+    // right: 13%;
+    top: auto;
+    bottom: 250px;
+    right: 44px;
     transform: rotate(0deg);
   }
 }
+
+@media (max-width: 700px) {
+  .trainer__image {
+    width: 100%;
+  }
+  .trainer__arrow_position_four {
+    top: 250px;
+    right: 60px;
+  }
+  .trainer__text_position_four {
+    top: 350px;
+    right: 0;
+    width: 165px;
+  }
+}
+
+@media (max-width: 520px) {
+  .trainer__text_position_one,
+  .trainer__text_position_two,
+  .trainer__text_position_three,
+  .trainer__text_position_four,
+  .trainer__text_position_five,
+  .trainer__arrow_position_one,
+  .trainer__arrow_position_two,
+  .trainer__arrow_position_three,
+  .trainer__arrow_position_four,
+  .trainer__arrow_position_five {
+    display: none;
+  }
+}
+
