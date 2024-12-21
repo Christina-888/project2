@@ -35,5 +35,6 @@ _sass --watch assets/sass/app.scss assets/style/style.css_
 - [**Полина Деряга**](https://t.me/SunnyPin) - Front-End Engineer
 - [**Юлия Хорева**](https://t.me/juljka_007) - Front-End Engineer
 - [**Юлия Иванова**](https://t.me/amanity_10) - Front-End Engineer
+- [**Екатерина Беликова**](https://t.me/belikovaekaterina) - Front-End Engineer
 
 > Создаём стильные и функциональные сайты с нуля. С вас - только идея, с нас - её безупречная реализация! &#9734;
