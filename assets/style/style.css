@@ -134,7 +134,7 @@ html {
 
 .title-costs {
   color: rgb(181, 151, 136);
-  font-family: Montserrat;
+  font-family: "Inter", sans-serif;
   font-size: 2.5em;
   font-weight: 600;
   text-align: left;
@@ -167,7 +167,7 @@ html {
 
 .cost-title {
   color: rgb(181, 151, 136);
-  font-family: Montserrat;
+  font-family: "Inter", sans-serif;
   font-size: 1.5625em;
   font-weight: 600;
   text-align: center;
@@ -176,7 +176,7 @@ html {
 
 .price {
   color: rgb(80, 80, 80);
-  font-family: Montserrat;
+  font-family: "Inter", sans-serif;
   font-size: 4em;
   font-weight: 600;
   line-height: 80px;
@@ -185,7 +185,7 @@ html {
 
 .duration {
   color: rgb(80, 80, 80);
-  font-family: Montserrat;
+  font-family: "Inter", sans-serif;
   font-size: 1.125em;
   font-weight: 500;
   line-height: 1.875em;
@@ -210,7 +210,7 @@ html {
   border-radius: 10px;
   border-color: transparent;
   color: rgb(255, 255, 255);
-  font-family: Montserrat;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 140%;
